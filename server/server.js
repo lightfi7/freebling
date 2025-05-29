@@ -22,5 +22,5 @@ app.use(errorHandler);
 
 const PORT = config.port || 8080;
 app.listen(PORT, () => {
-  logger.info(`Server is running on port: ${PORT}`);
+  //logger.info(`Server is running on port: ${PORT}`);
 });
